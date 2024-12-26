@@ -1,0 +1,95 @@
+body{
+    
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(239, 243, 247);
+        color: black;
+        line-height: 1.6;
+        background-size: cover;
+        background-image: url(port.jpg);
+        text-align: center;
+            
+}
+
+header{
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border: solid black;
+    
+}
+header h1{
+    font-size: 3rem;
+    margin: 0; 
+    letter-spacing: 3px;
+}
+nav{
+
+    padding: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4);
+    position: sticky;
+    z-index: 50;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    margin: 0 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+nav ul li a:hover{
+    background-color: rgba(126, 118, 118, 0.1);
+    border-radius: 9px;
+}
+section{
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: auto;
+    border: #222 solid;
+
+}
+img{
+    height: 30px;
+    width: 30px;
+}
+nav ul li {
+    padding: 30px 0;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: #222;
+    margin-right: 30px;
+    font-weight: 500;
+    position: relative;
+
+}
+
+#im{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+
+
+
+
+
